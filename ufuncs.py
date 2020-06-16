@@ -62,5 +62,9 @@ print(np.log1p(x)) # log(1+x)
 
 """ Specialized ufuncs """
 # scipy.special
+x = [1,5,10]
+print(special.gamma(x))
+print(special.gammaln(x))
+print(special.beta(x,2))
 
 
